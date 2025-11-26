@@ -1,16 +1,50 @@
-# to_do_list
+# 📝 To-Do List Flutter App
 
-A new Flutter project.
+Aplikasi to-do list modern dan sederhana menggunakan Flutter. Cocok untuk belajar, tugas kuliah, maupun pengelolaan aktivitas harian.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Fitur Utama
+- **Melihat Daftar Tugas**: Tampilkan semua tugas yang sudah dibuat.
+- **Menambah Tugas**: Tambahkan tugas baru dengan judul dan deskripsi.
+- **Melihat Detail Tugas**: Lihat detail lengkap setiap tugas.
+- **Menandai Selesai/Belum Selesai**: Tandai tugas sudah selesai atau belum.
+- **Menghapus Tugas**: Hapus tugas yang tidak diperlukan.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Struktur Folder
+```
+lib/
+├── main.dart                  // Entry point aplikasi
+├── models/
+│   └── todo_item.dart         // Model data tugas
+├── pages/
+│   ├── add_todo_page.dart     // Halaman tambah tugas
+│   ├── todo_detail_page.dart  // Halaman detail tugas
+│   └── todo_list_page.dart    // Halaman daftar tugas
+├── utils/                     // Utility/helper (jika ada)
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 💻 Cara Menjalankan
+1. Pastikan Flutter sudah terinstal ([petunjuk instalasi](https://docs.flutter.dev/get-started/install)).
+2. Buka terminal di folder project, lalu jalankan:
+   ```bash
+   flutter pub get
+   flutter run
+   ```
+3. Pilih device (emulator Android/iOS, Chrome, atau desktop).
+
+---
+
+## 📊 Use Case Diagram
+Lampirkan gambar use case diagram di folder project agar bisa ditampilkan di sini.
+
+---
+
+## 🤝 Kontribusi
+Pull request dan issue sangat diterima untuk pengembangan lebih lanjut.
+
+---
