@@ -39,7 +39,7 @@ lib/
 ---
 
 ## 📊 Use Case Diagram
-Lampirkan gambar use case diagram di folder project agar bisa ditampilkan di sini.
+![alt text](<WhatsApp Image 2025-11-26 at 08.40.37.jpeg>)
 
 ---
 
