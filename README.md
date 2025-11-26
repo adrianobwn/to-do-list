@@ -32,7 +32,6 @@ lib/
 1. Pastikan Flutter sudah terinstal ([petunjuk instalasi](https://docs.flutter.dev/get-started/install)).
 2. Buka terminal di folder project, lalu jalankan:
    ```bash
-   flutter pub get
    flutter run
    ```
 3. Pilih device (emulator Android/iOS, Chrome, atau desktop).
